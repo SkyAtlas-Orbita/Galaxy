@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "packageName": "com.wristlaboratory.viewer",
-  "versionName": "1.1.15",
-  "versionCode": 116,
-  "apkUrl": "https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v1.1.15/wrist-atlas-v1.1.15.apk",
-  "sha256": "a7d2c2f8e62b8eb6b2f2dd101b6e857631cdd033f5200cd0d593be80519eb3b5",
+  "versionName": "1.1.17",
+  "versionCode": 118,
+  "apkUrl": "https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v1.1.17/wrist-atlas-v1.1.17.apk",
+  "sha256": "ccdde15158ec1fd4ff92165685d53adbc6d8147c57111deb40d19407807a6827",
   "sizeBytes": 49611243,
   "minSdk": 30,
-  "changelog": "优化检查更新速度，使用轻量版本信息入口和备用通道；最近成功结果保留15分钟，重复进入直接显示。单次检查设总等待上限，服务连接失败后自动重试，明确区分未联网与更新服务暂时不可用。"
+  "changelog": "进入软件或更新页面时重新联网查询，查询完成前不再把历史结果显示为最新版；明确区分离线、查询中、服务不可用和版本结果。包含所有支持天体的地名导航双向倍率修复，以及卡片信息完善。"
 }
