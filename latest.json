@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "packageName": "com.wristlaboratory.viewer",
+  "versionName": "1.1.14",
+  "versionCode": 115,
+  "apkUrl": "https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v1.1.14/wrist-atlas-v1.1.14.apk",
+  "sha256": "d242d8471a3274e810c7e4990dc27fa5da5a686251c99ba9ccfbcd718d825d84",
+  "sizeBytes": 49607147,
+  "minSdk": 30,
+  "changelog": "项目与更新服务迁移至 SkyAtlas-Orbita/Galaxy；关于腕上星图图标去掉加号。启动时自动检查新版，可前往更新或选择不再自动提醒；软件与更新页面进入后自动检查，无需检查按钮。"
+}
