@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "packageName": "com.wristlaboratory.viewer",
-  "versionName": "1.1.17",
-  "versionCode": 118,
-  "apkUrl": "https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v1.1.17/wrist-atlas-v1.1.17.apk",
-  "sha256": "ccdde15158ec1fd4ff92165685d53adbc6d8147c57111deb40d19407807a6827",
-  "sizeBytes": 49611243,
+  "versionName": "1.1.18",
+  "versionCode": 119,
+  "apkUrl": "https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v1.1.18/wrist-atlas-v1.1.18.apk",
+  "sha256": "1cc96198b489461f28a4f86536c463d37ce6d57f6b60e65e7da3f63f49789e14",
+  "sizeBytes": 49619435,
   "minSdk": 30,
-  "changelog": "进入软件或更新页面时重新联网查询，查询完成前不再把历史结果显示为最新版；明确区分离线、查询中、服务不可用和版本结果。包含所有支持天体的地名导航双向倍率修复，以及卡片信息完善。"
+  "changelog": "型号配置新增品牌选项，可选择三星手表或 OPPO 手表，并保存选择。三星保留原有跟随处理；OPPO 的星球跟随改为按画面帧平滑更新，改善姿态数据集中到达时的顿挫。保留联网更新状态修复、地名导航双向倍率调整和现有显示、表圈、表冠设置。"
 }
