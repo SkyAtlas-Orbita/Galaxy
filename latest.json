@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "packageName": "com.wristlaboratory.viewer",
-  "versionName": "1.1.18",
-  "versionCode": 119,
-  "apkUrl": "https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v1.1.18/wrist-atlas-v1.1.18.apk",
-  "sha256": "1cc96198b489461f28a4f86536c463d37ce6d57f6b60e65e7da3f63f49789e14",
-  "sizeBytes": 49619435,
+  "versionName": "1.1.19",
+  "versionCode": 120,
+  "apkUrl": "https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v1.1.19/wrist-atlas-v1.1.19.apk",
+  "sha256": "32844f0efa42e7937913872c4dfded5e7180b4d2b4d82e514dae6182fd2a4ee8",
+  "sizeBytes": 49627627,
   "minSdk": 30,
-  "changelog": "型号配置新增品牌选项，可选择三星手表或 OPPO 手表，并保存选择。三星保留原有跟随处理；OPPO 的星球跟随改为按画面帧平滑更新，改善姿态数据集中到达时的顿挫。保留联网更新状态修复、地名导航双向倍率调整和现有显示、表圈、表冠设置。"
+  "changelog": "阅读页面标题居中，特殊情况说明更名为情况说明。窗口与显示新增四档纯文本字体大小、设置页面轮播/平滑模式、文本流动开关。流动模式下文字随滚动收窄淡出或逐渐变宽加深，关闭后普通平滑滚动。保留品牌配置、跟随适配、地名导航及软件内更新功能。"
 }
