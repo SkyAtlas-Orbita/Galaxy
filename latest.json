@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "packageName": "com.wristlaboratory.viewer",
-  "versionName": "1.1.19",
-  "versionCode": 120,
-  "apkUrl": "https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v1.1.19/wrist-atlas-v1.1.19.apk",
-  "sha256": "32844f0efa42e7937913872c4dfded5e7180b4d2b4d82e514dae6182fd2a4ee8",
-  "sizeBytes": 49627627,
+  "versionName": "1.1.20",
+  "versionCode": 121,
+  "apkUrl": "https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v1.1.20/wrist-atlas-v1.1.20.apk",
+  "sha256": "3237c8b81bb29838637874aab45fa444de6ce0a86d0d1e1e0dc32867cefa244d",
+  "sizeBytes": 49631723,
   "minSdk": 30,
-  "changelog": "阅读页面标题居中，特殊情况说明更名为情况说明。窗口与显示新增四档纯文本字体大小、设置页面轮播/平滑模式、文本流动开关。流动模式下文字随滚动收窄淡出或逐渐变宽加深，关闭后普通平滑滚动。保留品牌配置、跟随适配、地名导航及软件内更新功能。"
+  "changelog": "修复已知 Bug。"
 }
