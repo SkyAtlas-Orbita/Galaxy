@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "packageName": "com.wristlaboratory.viewer",
-  "versionName": "1.1.23",
-  "versionCode": 124,
-  "apkUrl": "https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v1.1.23/wrist-atlas-v1.1.23.apk",
-  "sha256": "1979354b773e4db5a059e9b68efe3edf80b0e7bce5ada7553aa355e0600375a9",
+  "versionName": "1.1.24",
+  "versionCode": 125,
+  "apkUrl": "https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v1.1.24/wrist-atlas-v1.1.24.apk",
+  "sha256": "6e2623b49859b07e82d71038092c9f2518dd0f92f228dbcd9d0e855800f13781",
   "sizeBytes": 42008692,
   "minSdk": 30,
-  "changelog": "· 修复表冠无法缩放的bug"
+  "changelog": "· 修复更新下载时断网的问题\n· 优化更新弹窗按钮样式"
 }
