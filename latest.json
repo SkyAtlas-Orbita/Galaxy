@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "packageName": "com.wristlaboratory.viewer",
-  "versionName": "2.5.12-local",
-  "versionCode": 184,
-  "apkUrl": "https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v2.5.12/wrist-atlas-v2.5.12.apk",
-  "sha256": "97050d6d1feb59bac05e5b8c99f69c5a589f8f64af9b6b8dd3d9397778f85f7b",
-  "sizeBytes": 170957691,
+  "versionName": "2.5.14-local",
+  "versionCode": 186,
+  "apkUrl": "https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v2.5.14/wrist-atlas-v2.5.14.apk",
+  "sha256": "28eb0b5c7cff5404802f04ccdba9607e82fc1e787475e05711ca33cbb96ddbf4",
+  "sizeBytes": 170961787,
   "minSdk": 30,
-  "changelog": "· 恢复黑洞模型与「探测任务重现」完整内容\n· 更新下载提速，弱网下自动续传更稳健"
+  "changelog": "· 修复返回后列表回到顶部、不能保留原位置的问题\n· 降低整理天体时拖动换位的灵敏度"
 }
