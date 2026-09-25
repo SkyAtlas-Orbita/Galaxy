@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "packageName": "com.wristlaboratory.viewer",
-  "versionName": "1.1.24",
-  "versionCode": 125,
-  "apkUrl": "https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v1.1.24/wrist-atlas-v1.1.24.apk",
-  "sha256": "6e2623b49859b07e82d71038092c9f2518dd0f92f228dbcd9d0e855800f13781",
-  "sizeBytes": 42008692,
+  "versionName": "2.5.10-local",
+  "versionCode": 182,
+  "apkUrl": "https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v2.5.10/wrist-atlas-v2.5.10.apk",
+  "sha256": "0ab0279e4e406398aa309c3fad24154b69c81df06aa2765031d6584e4aa149de",
+  "sizeBytes": 175676283,
   "minSdk": 30,
-  "changelog": "· 修复更新下载时断网的问题\n· 优化更新弹窗按钮样式"
+  "changelog": "· 全新 2.0 大版本：界面改版，新增实时天穹、星座印象、月球模拟、地球的一天等工具\n· 页面常亮、流畅度与页面显示优化\n· 调整应用图标；腕上星图正式更名为腕上天文台，数据与设置自动保留"
 }
