@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "packageName": "com.wristlaboratory.viewer",
-  "versionName": "2.5.10-local",
-  "versionCode": 182,
-  "apkUrl": "https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v2.5.10/wrist-atlas-v2.5.10.apk",
-  "sha256": "0ab0279e4e406398aa309c3fad24154b69c81df06aa2765031d6584e4aa149de",
-  "sizeBytes": 175676283,
+  "versionName": "2.5.11-local",
+  "versionCode": 183,
+  "apkUrl": "https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v2.5.11/wrist-atlas-v2.5.11.apk",
+  "sha256": "2049c0b355496e00db5b38346d7063a0cb7202f5f11977250d108abaa7586d81",
+  "sizeBytes": 138675473,
   "minSdk": 30,
-  "changelog": "· 全新 2.0 大版本：界面改版，新增实时天穹、星座印象、月球模拟、地球的一天等工具\n· 页面常亮、流畅度与页面显示优化\n· 调整应用图标；腕上星图正式更名为腕上天文台，数据与设置自动保留"
+  "changelog": "· 修复联网更新：此前版本无法发现新版本，现已恢复应用内检测与下载\n· 解除更新包 150MB 体积上限，后续大版本也能正常升级\n· 临时移除黑洞模型与「探测任务重现」视频以压缩体积，将在下个版本回归"
 }
