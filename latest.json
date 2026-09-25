@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "packageName": "com.wristlaboratory.viewer",
-  "versionName": "2.5.11-local",
-  "versionCode": 183,
-  "apkUrl": "https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v2.5.11/wrist-atlas-v2.5.11.apk",
-  "sha256": "709d4ca130c3adf0e7839a46cfb87fc4eaff3fed72cb92b00a2b3a701c722e84",
-  "sizeBytes": 138675473,
+  "versionName": "2.5.12-local",
+  "versionCode": 184,
+  "apkUrl": "https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v2.5.12/wrist-atlas-v2.5.12.apk",
+  "sha256": "97050d6d1feb59bac05e5b8c99f69c5a589f8f64af9b6b8dd3d9397778f85f7b",
+  "sizeBytes": 170957691,
   "minSdk": 30,
-  "changelog": "· 修复联网更新：此前版本无法发现新版本，现已恢复应用内检测与下载\n· 解除更新包 150MB 体积上限，后续大版本也能正常升级\n· 临时移除黑洞模型与「探测任务重现」视频以压缩体积，将在下个版本回归"
+  "changelog": "· 恢复黑洞模型与「探测任务重现」完整内容\n· 更新下载提速，弱网下自动续传更稳健"
 }
