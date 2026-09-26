@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "packageName": "com.wristlaboratory.viewer",
-  "versionName": "2.5.15-local",
-  "versionCode": 187,
-  "apkUrl": "https://ghproxy.net/https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v2.5.15/wrist-atlas-v2.5.15.apk",
-  "sha256": "5940f8ab90abf36e12f7cdd7dd4eb308b7e1138092374b0bf3d8dfe830fb9b82",
-  "sizeBytes": 8227592,
+  "versionName": "2.5.16-local",
+  "versionCode": 188,
+  "apkUrl": "https://ghproxy.net/https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v2.5.16/wrist-atlas-v2.5.16.apk",
+  "sha256": "a7bf33e94f34df5c28dd969be6be7d44b98cef1ab0f44a5c81e2ea1d673992e5",
+  "sizeBytes": 170961787,
   "minSdk": 30,
   "changelog": "· 修复应用内更新无法完成下载的问题"
 }
