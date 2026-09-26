@@ -1,15 +1,15 @@
 {
   "schema": 1,
   "packageName": "com.wristlaboratory.viewer",
-  "versionName": "2.5.17-local",
-  "versionCode": 189,
-  "apkUrl": "https://ghproxy.net/https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v2.5.17/wrist-atlas-v2.5.17.apk",
+  "versionName": "2.5.18-local",
+  "versionCode": 190,
+  "apkUrl": "https://ghproxy.net/https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v2.5.18/wrist-atlas-v2.5.18.apk",
   "mirrors": [
-    "https://gh-proxy.com/https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v2.5.17/wrist-atlas-v2.5.17.apk",
-    "https://ghfast.top/https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v2.5.17/wrist-atlas-v2.5.17.apk"
+    "https://gh-proxy.com/https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v2.5.18/wrist-atlas-v2.5.18.apk",
+    "https://ghfast.top/https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v2.5.18/wrist-atlas-v2.5.18.apk"
   ],
-  "sha256": "dbebe1a82d17000759cd38a5a6f007a4fd3344548e70ae2799b6daaa103dde8e",
-  "sizeBytes": 170961787,
+  "sha256": "4676e3295c9d41cc2b42f39b0a26a77db54f682d249b1abefeffe6ebd0a05545",
+  "sizeBytes": 170965883,
   "minSdk": 30,
-  "changelog": "· 提升应用内更新的下载速度"
+  "changelog": "· “工具与其他”与天体阅览列表支持长按整理\n· 继续优化流畅度与启动速度"
 }
