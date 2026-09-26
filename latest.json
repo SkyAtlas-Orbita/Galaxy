@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "packageName": "com.wristlaboratory.viewer",
-  "versionName": "2.5.14-local",
-  "versionCode": 186,
-  "apkUrl": "https://ghproxy.net/https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v2.5.14/wrist-atlas-v2.5.14.apk",
-  "sha256": "28eb0b5c7cff5404802f04ccdba9607e82fc1e787475e05711ca33cbb96ddbf4",
-  "sizeBytes": 170961787,
+  "versionName": "2.5.15-local",
+  "versionCode": 187,
+  "apkUrl": "https://ghproxy.net/https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v2.5.15/wrist-atlas-v2.5.15.apk",
+  "sha256": "5940f8ab90abf36e12f7cdd7dd4eb308b7e1138092374b0bf3d8dfe830fb9b82",
+  "sizeBytes": 8227592,
   "minSdk": 30,
-  "changelog": "· 修复返回后列表回到顶部、不能保留原位置的问题\n· 降低整理天体时拖动换位的灵敏度"
+  "changelog": "· 修复应用内更新无法完成下载的问题"
 }
