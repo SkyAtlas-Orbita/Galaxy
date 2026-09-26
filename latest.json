@@ -1,11 +1,15 @@
 {
   "schema": 1,
   "packageName": "com.wristlaboratory.viewer",
-  "versionName": "2.5.16-local",
-  "versionCode": 188,
-  "apkUrl": "https://ghproxy.net/https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v2.5.16/wrist-atlas-v2.5.16.apk",
-  "sha256": "a7bf33e94f34df5c28dd969be6be7d44b98cef1ab0f44a5c81e2ea1d673992e5",
+  "versionName": "2.5.17-local",
+  "versionCode": 189,
+  "apkUrl": "https://ghproxy.net/https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v2.5.17/wrist-atlas-v2.5.17.apk",
+  "mirrors": [
+    "https://gh-proxy.com/https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v2.5.17/wrist-atlas-v2.5.17.apk",
+    "https://ghfast.top/https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v2.5.17/wrist-atlas-v2.5.17.apk"
+  ],
+  "sha256": "dbebe1a82d17000759cd38a5a6f007a4fd3344548e70ae2799b6daaa103dde8e",
   "sizeBytes": 170961787,
   "minSdk": 30,
-  "changelog": "· 修复应用内更新无法完成下载的问题"
+  "changelog": "· 提升应用内更新的下载速度"
 }
