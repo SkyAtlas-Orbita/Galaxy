@@ -8,7 +8,7 @@
     "https://gh-proxy.com/https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v2.5.19/wrist-atlas-v2.5.19.apk",
     "https://ghfast.top/https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v2.5.19/wrist-atlas-v2.5.19.apk"
   ],
-  "sha256": "5e0fffd1b214cafe0d41d2ee0e07761bec1a1b87d87ac89844c020604951e61d",
+  "sha256": "67b1bf60645e6eda48cc106d3362f2cee1d5fce2adaa3787d84e63ddcdf8625f",
   "sizeBytes": 170965883,
   "minSdk": 30,
   "changelog": "· “工具与其他”与天体阅览列表支持长按整理\n· 继续优化流畅度与启动速度"
