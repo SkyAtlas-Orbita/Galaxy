@@ -3,7 +3,7 @@
   "packageName": "com.wristlaboratory.viewer",
   "versionName": "2.5.14-local",
   "versionCode": 186,
-  "apkUrl": "https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v2.5.14/wrist-atlas-v2.5.14.apk",
+  "apkUrl": "https://gh-proxy.com/https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v2.5.14/wrist-atlas-v2.5.14.apk",
   "sha256": "28eb0b5c7cff5404802f04ccdba9607e82fc1e787475e05711ca33cbb96ddbf4",
   "sizeBytes": 170961787,
   "minSdk": 30,
