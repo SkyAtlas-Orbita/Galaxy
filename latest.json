@@ -1,15 +1,15 @@
 {
   "schema": 1,
   "packageName": "com.wristlaboratory.viewer",
-  "versionName": "2.5.19-local",
-  "versionCode": 191,
-  "apkUrl": "https://ghproxy.net/https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v2.5.19/wrist-atlas-v2.5.19.apk",
+  "versionName": "2.5.22-local",
+  "versionCode": 194,
+  "apkUrl": "https://ghproxy.net/https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v2.5.22/wrist-atlas-v2.5.22.apk",
   "mirrors": [
-    "https://gh-proxy.com/https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v2.5.19/wrist-atlas-v2.5.19.apk",
-    "https://ghfast.top/https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v2.5.19/wrist-atlas-v2.5.19.apk"
+    "https://gh-proxy.com/https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v2.5.22/wrist-atlas-v2.5.22.apk",
+    "https://ghfast.top/https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v2.5.22/wrist-atlas-v2.5.22.apk"
   ],
-  "sha256": "67b1bf60645e6eda48cc106d3362f2cee1d5fce2adaa3787d84e63ddcdf8625f",
-  "sizeBytes": 170965883,
+  "sha256": "319b66d47d3b1c2eb7534afab566df1d9c41b56ffe654a375b364bc37158a309",
+  "sizeBytes": 170978171,
   "minSdk": 30,
-  "changelog": "· “工具与其他”与天体阅览列表支持长按整理\n· 继续优化流畅度与启动速度"
+  "changelog": "· 第二页新增“公告”，联网时可以收到最新公告\n· 有新公告尚未查看时卡片显示蓝色亮点，查看后消失"
 }
