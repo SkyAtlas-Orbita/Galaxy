@@ -1,15 +1,15 @@
 {
   "schema": 1,
   "packageName": "com.wristlaboratory.viewer",
-  "versionName": "2.5.27-local",
-  "versionCode": 199,
-  "apkUrl": "https://ghproxy.net/https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v2.5.27/wrist-atlas-v2.5.27.apk",
+  "versionName": "2.5.28-local",
+  "versionCode": 200,
+  "apkUrl": "https://ghproxy.net/https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v2.5.28/wrist-atlas-v2.5.28.apk",
   "mirrors": [
-    "https://gh-proxy.com/https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v2.5.27/wrist-atlas-v2.5.27.apk",
-    "https://ghfast.top/https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v2.5.27/wrist-atlas-v2.5.27.apk"
+    "https://gh-proxy.com/https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v2.5.28/wrist-atlas-v2.5.28.apk",
+    "https://ghfast.top/https://github.com/SkyAtlas-Orbita/Galaxy/releases/download/v2.5.28/wrist-atlas-v2.5.28.apk"
   ],
-  "sha256": "8209935b9411a19e44bc62b6cc1bdc3e8be76c8b180da097ae18fb52b852a917",
-  "sizeBytes": 170994555,
+  "sha256": "837d6a28aa3d4456322361574be37060a2a07854d6fdc1bf1f5bc9e46e7234e3",
+  "sizeBytes": 171862907,
   "minSdk": 30,
-  "changelog": "• 新增隐私政策与开发者信息页面，完善数据使用说明\n• 天体模型与地球仪改为线性缩放，高倍率下仍能直观看出变化\n• 优化 Galaxy Watch 虚拟表圈兼容和翻页、缩放、调时过渡\n• 修复切换天体模型后的异常旋转与陀螺仪响应延迟\n• 实时天穹、星座印象、月球模拟调节时继续实时跟随"
+  "changelog": "• 修复天体模型在高陀螺仪灵敏度下，转到部分角度时可能停滞、变钝或折返的问题\n• 跟随改为连续累积相邻手表姿态的反向转动，保留原灵敏度并与天体自身朝向分离"
 }
