@@ -4,66 +4,90 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="color-scheme" content="dark">
+  <meta name="description" content="腕上天文台隐私政策与设备权限说明">
   <title>腕上天文台隐私政策</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23081220'/%3E%3Ccircle cx='32' cy='32' r='14' fill='none' stroke='%238fe7ff' stroke-width='4'/%3E%3Cellipse cx='32' cy='32' rx='25' ry='9' fill='none' stroke='%238fe7ff' stroke-width='3' transform='rotate(-18 32 32)'/%3E%3C/svg%3E">
   <style>
-    :root{font-family:-apple-system,BlinkMacSystemFont,"HarmonyOS Sans SC","Microsoft YaHei",sans-serif;color:#eef8ff;background:#020916}
-    *{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(circle at 15% 5%,#123a64 0,transparent 32%),radial-gradient(circle at 85% 22%,#172450 0,transparent 29%),#020916;line-height:1.72}
-    main{width:min(760px,calc(100% - 30px));margin:0 auto;padding:48px 0 72px}header,section{background:rgba(13,31,49,.66);border:1px solid rgba(165,226,249,.34);box-shadow:0 12px 42px rgba(0,0,0,.28),inset 0 1px rgba(255,255,255,.09);backdrop-filter:blur(18px);border-radius:24px;padding:24px;margin-bottom:16px}
-    h1{font-size:28px;line-height:1.25;margin:0 0 10px}h2{font-size:18px;margin:0 0 10px;color:#d8f4ff}h3{font-size:15px;margin:18px 0 6px}p,li{font-size:15px;color:#c9dbe7}p{margin:8px 0}ul{padding-left:20px;margin:8px 0}a{color:#8ee5ff}small,.meta{color:#8eb0c3}.badge{display:inline-block;border:1px solid #69c9ea;border-radius:999px;padding:3px 10px;color:#bceeff;font-size:12px;margin-right:6px}
-    table{width:100%;border-collapse:collapse;font-size:14px;color:#c9dbe7}th,td{text-align:left;vertical-align:top;border-bottom:1px solid rgba(180,225,245,.16);padding:10px 6px}th{color:#e7f7ff}
-    @media(max-width:520px){main{padding-top:20px}header,section{padding:19px;border-radius:20px}h1{font-size:24px}table{display:block;overflow-x:auto}}
+    :root{font-family:-apple-system,BlinkMacSystemFont,"HarmonyOS Sans SC","Noto Sans SC","Microsoft YaHei",sans-serif;color:#f4f5fa;background:#090a13;line-height:1.8}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;min-height:100vh;background:#090a13;color:#b9bac5}
+    .toolbar{position:sticky;top:0;z-index:10;border-bottom:1px solid #292b38;background:rgba(9,10,19,.92);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}
+    .toolbar-inner{width:min(840px,calc(100% - 36px));margin:auto;min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+    .brand{display:flex;align-items:center;gap:12px;color:#f8f9ff;font-weight:700;font-size:18px}.mark{width:30px;height:30px;border:2px solid #8fe7ff;border-radius:50%;box-shadow:0 0 18px rgba(95,211,255,.28);position:relative}.mark:after{content:"";position:absolute;inset:8px -7px;border:2px solid #8fe7ff;border-radius:50%;transform:rotate(-18deg)}
+    button{appearance:none;border:1px solid #45495e;border-radius:12px;background:#171929;color:#f4f5fa;font:inherit;font-weight:600;padding:10px 15px;min-width:112px;cursor:pointer}button:focus-visible{outline:2px solid #8fe7ff;outline-offset:3px}
+    main{width:min(840px,calc(100% - 36px));margin:auto;padding:54px 0 90px}header{padding-bottom:38px;border-bottom:1px solid #2c2e3b}h1{margin:0 0 12px;color:#fff;font-size:clamp(32px,7vw,48px);line-height:1.2;letter-spacing:.02em}.meta{margin:0;color:#777b8d;font-size:15px}
+    article{padding-top:16px}section{padding:30px 0 26px;border-bottom:1px solid #292b38}h2{margin:0 0 15px;color:#fff;font-size:24px;line-height:1.35}p,li{font-size:18px;margin:8px 0}ul{margin:8px 0;padding-left:1.45em}li{padding-left:.2em}strong{color:#f0f1f7}a{color:#8fe7ff;text-underline-offset:4px}.contact{margin-top:14px;padding:18px 20px;border:1px solid #343746;border-radius:16px;background:#11131e}.contact p{margin:3px 0}.fine{color:#7c8091;font-size:15px}.language[hidden]{display:none}
+    @media(max-width:560px){.toolbar-inner,main{width:min(100% - 28px,840px)}.toolbar-inner{min-height:68px}.brand{font-size:16px}button{min-width:100px;padding:9px 12px}main{padding-top:38px}header{padding-bottom:28px}section{padding:25px 0 22px}h2{font-size:21px}p,li{font-size:17px;line-height:1.9}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
   </style>
 </head>
-<body><main>
-  <header>
-    <span class="badge">隐私政策</span><span class="badge">HarmonyOS 版</span>
-    <h1>腕上天文台</h1>
-    <p>本政策说明《腕上天文台》在运行时如何使用设备能力、处理数据并保护您的权利。我们坚持最小必要原则：天体模型与传感器计算在手表本地完成，不建立用户账号，不收集或上传个人信息。</p>
-    <p class="meta">生效日期：2026 年 10 月 3 日 · 更新日期：2026 年 10 月 3 日</p>
-  </header>
+<body>
+  <nav class="toolbar" aria-label="语言选择"><div class="toolbar-inner"><div class="brand"><span class="mark" aria-hidden="true"></span><span id="brandText">腕上天文台</span></div><button id="languageButton" type="button" aria-label="Switch to English">English</button></div></nav>
+  <main>
+    <div class="language" data-language="zh">
+      <header><h1>隐私政策</h1><p class="meta">腕上天文台 · 生效及更新日期：2026 年 10 月 4 日</p></header>
+      <article>
+        <section><h2>概述</h2><p>《腕上天文台》是一款运行于 HarmonyOS 手表的天文科普与天体模型应用。我们遵循最小必要原则：天体模型、姿态跟随和界面效果均在设备本地完成；应用不建立用户账号，不收集、出售或上传用户个人信息。</p></section>
+        <section><h2>权限与传感器说明</h2><ul>
+          <li><strong>旋转矢量与陀螺仪：</strong>在天体模型的跟随模式中，根据手腕姿态旋转天体与星空背景。数据仅在模型页实时处理，离开页面后停止订阅，不上传、不持久保存。</li>
+          <li><strong>质感窗压力传感器：</strong>在支持该能力的华为设备上，根据质感窗压力生成天体光照阴影。普通触屏按压不会用于此功能；压力值仅在本地实时处理。</li>
+          <li><strong>振动：</strong>用于表冠翻页、模型缩放、边界提示和长按确认的触感反馈。</li>
+          <li><strong>网络与网络状态：</strong>仅在用户主动查看隐私政策、检查更新或使用明确标注的网络功能时连接网络。</li>
+        </ul><p>应用不申请定位、相机、麦克风、通讯录、短信、通话记录或健康数据权限。</p></section>
+        <section><h2>数据处理方式</h2><ul>
+          <li>传感器数据只在运行内存中短暂使用，离开对应页面后立即停止处理。</li>
+          <li>灵敏度、浏览方式、刻度及显示开关等偏好仅保存在应用私有目录，不包含身份信息。</li>
+          <li>设置偏好保留至用户恢复默认、清除应用数据或卸载应用。</li>
+          <li>当前版本不集成广告、行为统计、账号登录或个性化推荐 SDK，不向第三方出售、出租或共享个人信息。</li>
+          <li>用户打开本页时，网页托管服务可能按互联网连接的通常方式接收 IP 地址及浏览器基本请求信息；应用开发者不据此建立用户档案。</li>
+        </ul></section>
+        <section><h2>第三方服务</h2><p>应用不包含广告、分析或社交分享服务。隐私政策文件保存在 GitHub 公共仓库，并通过 jsDelivr CDN 提供网页访问；其网络日志处理分别受对应服务政策约束。天体图像、纹理与模型素材的许可和来源说明，不代表素材提供者能够取得用户数据。</p></section>
+        <section><h2>您的权利</h2><p>您可以在系统设置中管理应用权限，在应用设置中调整或恢复偏好，并可通过清除应用数据或卸载应用删除本地偏好。若需访问、更正、删除、限制处理、撤回同意或咨询本政策，请通过下方邮箱联系我们；我们将在收到合理请求后 15 个工作日内回复。</p></section>
+        <section><h2>未成年人保护</h2><p>应用面向一般天文科普用户，不要求提交年龄或身份信息，也不主动收集未成年人个人信息。未成年人使用时，建议由监护人指导。</p></section>
+        <section><h2>安全与政策更新</h2><p>我们使用应用沙箱、最小权限和本地处理减少数据风险。如功能、权限或数据处理方式发生实质变化，我们将更新本页日期，并在法律要求时以显著方式告知或重新征得同意。</p></section>
+        <section><h2>开发者与联系方式</h2><div class="contact"><p>开发者及个人信息处理者：<strong>曹文钊</strong>（个人开发者）</p><p>开发者名称：wrist_observator</p><p>邮箱：<a href="mailto:wrist_observatory@qq.com">wrist_observatory@qq.com</a></p></div><p class="fine">本政策适用于 HarmonyOS 版《腕上天文台》。</p></section>
+      </article>
+    </div>
 
-  <section><h2>1. 开发者与联系方式</h2>
-    <p>开发者及个人信息处理者：<strong>曹文钊</strong>（个人开发者）</p>
-    <p>开发团队：wrist_observator</p>
-    <p>联系邮箱：<a href="mailto:wrist_observatory@qq.com">wrist_observatory@qq.com</a></p>
-  </section>
-
-  <section><h2>2. 处理的数据与用途</h2>
-    <table><thead><tr><th>数据或设备能力</th><th>用途</th><th>处理方式</th></tr></thead><tbody>
-      <tr><td>旋转矢量、陀螺仪</td><td>根据手腕姿态旋转天体与背景</td><td>仅在模型页实时本地计算，不上传、不持久保存</td></tr>
-      <tr><td>质感窗压力传感器</td><td>生成按压力度对应的天体光照阴影</td><td>仅在功能生效时本地计算，不上传、不持久保存</td></tr>
-      <tr><td>设置偏好</td><td>保存灵敏度、浏览方式、刻度与模式入口开关</td><td>仅保存在应用私有目录，不含身份信息</td></tr>
-      <tr><td>网络状态与互联网</td><td>在用户主动查看隐私政策、更新或网络内容时连接</td><td>不建立账号，不读取精确位置、通讯录或设备唯一标识</td></tr>
-    </tbody></table>
-  </section>
-
-  <section><h2>3. 权限与传感器说明</h2>
-    <ul>
-      <li><strong>陀螺仪／旋转矢量：</strong>用于跟随模式。离开模型页后停止相应订阅。</li>
-      <li><strong>压力传感器：</strong>仅对支持华为质感窗的设备用于本地阴影动效；普通触摸压力不作此用途。</li>
-      <li><strong>振动：</strong>用于表冠翻页、缩放和长按确认的触感反馈。</li>
-      <li><strong>网络与网络状态：</strong>用于用户主动发起的在线访问与连接状态判断。</li>
-    </ul>
-    <p>应用不申请定位、相机、麦克风、通讯录、短信、通话记录或健康数据权限。</p>
-  </section>
-
-  <section><h2>4. 数据存储、保留与删除</h2>
-    <p>传感器数据仅在内存中短暂使用，不写入用户档案。设置偏好保留至您在应用内恢复默认、清除应用数据或卸载应用。我们不在自有服务器建立个人数据库。</p>
-  </section>
-
-  <section><h2>5. 共享、委托处理与第三方 SDK</h2>
-    <p>当前版本不向第三方出售、出租、共享个人信息，不集成广告、行为统计、账号登录或个人化推荐 SDK。天体图像、纹理和模型素材的许可与来源说明不代表这些素材提供者获取用户数据。</p>
-  </section>
-
-  <section><h2>6. 您的权利</h2>
-    <p>您可在系统设置中管理应用权限，在应用设置中调整或恢复偏好，也可通过清除数据或卸载应用删除本地偏好。若您对访问、更正、删除、撤回同意、注销或本政策有疑问，请邮件联系我们；我们将在收到合理请求后 15 个工作日内回复。</p>
-  </section>
-
-  <section><h2>7. 未成年人保护</h2>
-    <p>应用面向一般天文科普用户，不要求提交年龄或身份信息，也不主动收集未成年人个人信息。若未成年人使用本应用，建议在监护人指导下进行。</p>
-  </section>
-
-  <section><h2>8. 安全、政策更新与适用范围</h2>
-    <p>我们使用应用沙箱、最小权限和本地处理来减少数据风险。如功能、权限或数据处理方式发生实质变化，我们将更新本页的更新日期，并在法律要求时通过显著方式另行告知或征得同意。本政策适用于 HarmonyOS 版《腕上天文台》。</p>
-  </section>
-</main></body></html>
+    <div class="language" data-language="en" lang="en" hidden>
+      <header><h1>Privacy Policy</h1><p class="meta">Wrist Observatory · Effective and updated: October 4, 2026</p></header>
+      <article>
+        <section><h2>Overview</h2><p>Wrist Observatory is an astronomy education and celestial-model application for HarmonyOS watches. We follow data-minimisation principles: models, motion tracking, and visual effects are processed locally on the device. The app does not create user accounts and does not collect, sell, or upload personal information.</p></section>
+        <section><h2>Permissions and sensors</h2><ul>
+          <li><strong>Rotation vector and gyroscope:</strong> rotate celestial bodies and the star background in Follow mode. Samples are processed only while the model page is open and are neither uploaded nor retained.</li>
+          <li><strong>Pressure sensor for supported Huawei windows:</strong> controls the lighting shadow on compatible devices. Ordinary touchscreen pressure is not used for this feature.</li>
+          <li><strong>Vibration:</strong> provides haptic feedback for crown paging, zooming, boundaries, and long-press confirmation.</li>
+          <li><strong>Network and network state:</strong> are used only when you explicitly open this policy, check for updates, or use a clearly identified online feature.</li>
+        </ul><p>The app does not request location, camera, microphone, contacts, messages, call logs, or health-data permissions.</p></section>
+        <section><h2>How data is handled</h2><ul>
+          <li>Sensor samples exist briefly in memory and stop being processed when the corresponding page closes.</li>
+          <li>Sensitivity, browsing style, scale, and display preferences are stored only in the app's private local directory and contain no identity information.</li>
+          <li>Preferences remain until you reset them, clear app data, or uninstall the app.</li>
+          <li>The current version contains no advertising, behavioural analytics, account-login, or personalised-recommendation SDKs and does not sell, rent, or share personal information.</li>
+          <li>When you open this page, the hosting provider may receive an IP address and basic request information as part of a normal web connection. The developer does not use this information to build user profiles.</li>
+        </ul></section>
+        <section><h2>Third-party services</h2><p>The app contains no advertising, analytics, or social-sharing services. The policy file is stored in a public GitHub repository and delivered as a webpage through the jsDelivr CDN; network logs are governed by the respective services' policies. Licences and credits for astronomy images, textures, and models do not give those asset providers access to user data.</p></section>
+        <section><h2>Your rights</h2><p>You can manage permissions in system settings, adjust or reset preferences in the app, and delete local preferences by clearing app data or uninstalling the app. For access, correction, deletion, restriction, withdrawal of consent, or questions about this policy, contact us using the email below. We will respond to reasonable requests within 15 working days.</p></section>
+        <section><h2>Children</h2><p>The app is intended for general astronomy education. It does not request age or identity information and does not knowingly collect children's personal information. Children should use the app with guidance from a parent or guardian.</p></section>
+        <section><h2>Security and updates</h2><p>We reduce risk through application sandboxing, minimal permissions, and local processing. If features, permissions, or processing practices materially change, we will update the date on this page and provide prominent notice or renewed consent where required by law.</p></section>
+        <section><h2>Developer and contact</h2><div class="contact"><p>Developer and personal-information processor: <strong>Cao Wenzhao</strong> (individual developer)</p><p>Developer name: wrist_observator</p><p>Email: <a href="mailto:wrist_observatory@qq.com">wrist_observatory@qq.com</a></p></div><p class="fine">This policy applies to the HarmonyOS edition of Wrist Observatory.</p></section>
+      </article>
+    </div>
+  </main>
+  <script>
+    const button=document.getElementById('languageButton');
+    const brand=document.getElementById('brandText');
+    const panels=[...document.querySelectorAll('[data-language]')];
+    let language='zh';
+    button.addEventListener('click',()=>{
+      language=language==='zh'?'en':'zh';
+      panels.forEach(panel=>panel.hidden=panel.dataset.language!==language);
+      document.documentElement.lang=language==='zh'?'zh-CN':'en';
+      document.title=language==='zh'?'腕上天文台隐私政策':'Wrist Observatory Privacy Policy';
+      brand.textContent=language==='zh'?'腕上天文台':'Wrist Observatory';
+      button.textContent=language==='zh'?'English':'中文';
+      button.setAttribute('aria-label',language==='zh'?'Switch to English':'切换到中文');
+      window.scrollTo({top:0,behavior:'smooth'});
+    });
+  </script>
+</body>
+</html>
