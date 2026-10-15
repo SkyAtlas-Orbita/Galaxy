@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 1,
+  "version": 1,
+  "packs": [
+    {
+      "id": "io",
+      "name": "木卫一",
+      "version": 1,
+      "sizeBytes": 1533201,
+      "sha256": "9bedc88a36e9a92fd64407a50c4e04b70f931e21c4a14528be7528330ae54d89",
+      "urls": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/SkyAtlas-Orbita/Galaxy/model-library-v1/io-v1.zip",
+        "https://raw.githubusercontent.com/SkyAtlas-Orbita/Galaxy/model-library-v1/io-v1.zip"
+      ],
+      "files": [
+        {
+          "path": "textures/io.jpg",
+          "sizeBytes": 644524,
+          "sha256": "0a50d77d97ebd2f3175b64d58be168b1977d2c23428002803d0eab98b7df33f3"
+        },
+        {
+          "path": "textures_astc/io.astc",
+          "sizeBytes": 935728,
+          "sha256": "61376cf04937212562de55dff7167395003a383ac9a79dbca35c5a3781819dce"
+        }
+      ],
+      "preview": "model-library/previews/io.png",
+      "credit": "NASA Visualization Technology Applications and Development (VTAD)",
+      "sourcePage": "https://science.nasa.gov/resource/io-3d-model/"
+    },
+    {
+      "id": "europa",
+      "name": "木卫二",
+      "version": 1,
+      "sizeBytes": 1426592,
+      "sha256": "3c7a6d37ca99459824ecf228010e607d6d438ecfd026a98a3f94bf5f36bf4028",
+      "urls": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/SkyAtlas-Orbita/Galaxy/model-library-v1/europa-v1.zip",
+        "https://raw.githubusercontent.com/SkyAtlas-Orbita/Galaxy/model-library-v1/europa-v1.zip"
+      ],
+      "files": [
+        {
+          "path": "textures/europa.jpg",
+          "sizeBytes": 577856,
+          "sha256": "4a94409e7fcd07bc47968d00d058b9fb0fdaeebc10e042ac46f5c0663eb33292"
+        },
+        {
+          "path": "textures_astc/europa.astc",
+          "sizeBytes": 935728,
+          "sha256": "e496069d2c79ff2e12ca4341e389b88c5363056169160dafcd52ae9d872d6418"
+        }
+      ],
+      "preview": "model-library/previews/europa.png",
+      "credit": "NASA Visualization Technology Applications and Development (VTAD)",
+      "sourcePage": "https://science.nasa.gov/resource/europa-3d-model/"
+    },
+    {
+      "id": "ganymede",
+      "name": "木卫三",
+      "version": 1,
+      "sizeBytes": 1485059,
+      "sha256": "d7aca1a700074c9dc24d5b3413f356dddc2f589eaa22ac21b889891024df1ddb",
+      "urls": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/SkyAtlas-Orbita/Galaxy/model-library-v1/ganymede-v1.zip",
+        "https://raw.githubusercontent.com/SkyAtlas-Orbita/Galaxy/model-library-v1/ganymede-v1.zip"
+      ],
+      "files": [
+        {
+          "path": "textures/ganymede.jpg",
+          "sizeBytes": 609783,
+          "sha256": "97e5734bb4d5ed8a428362ede028e8ca6a48561600fa91247a1e7c5677563fad"
+        },
+        {
+          "path": "textures_astc/ganymede.astc",
+          "sizeBytes": 935728,
+          "sha256": "b1b2d0c79c2feacbc01a4082d2b2dc86d569c9a420103b32e608a64f28074be7"
+        }
+      ],
+      "preview": "model-library/previews/ganymede.png",
+      "credit": "NASA Visualization Technology Applications and Development (VTAD)",
+      "sourcePage": "https://science.nasa.gov/resource/ganymede-3d-model/"
+    },
+    {
+      "id": "callisto",
+      "name": "木卫四",
+      "version": 1,
+      "sizeBytes": 1616007,
+      "sha256": "9cf495029d0ea4ad0b07ade230e18731cddad88d424511d8238bca3a9b79644e",
+      "urls": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/SkyAtlas-Orbita/Galaxy/model-library-v1/callisto-v1.zip",
+        "https://raw.githubusercontent.com/SkyAtlas-Orbita/Galaxy/model-library-v1/callisto-v1.zip"
+      ],
+      "files": [
+        {
+          "path": "textures/callisto.jpg",
+          "sizeBytes": 719372,
+          "sha256": "c25ed1b7320ef34a5c811dcb822857baefaa865ef5d2051d313e4ce0677fa000"
+        },
+        {
+          "path": "textures_astc/callisto.astc",
+          "sizeBytes": 935728,
+          "sha256": "16796f7b470f730280adc878fc9614afb05eb357712b7e0d524a2816e78b98b5"
+        }
+      ],
+      "preview": "model-library/previews/callisto.png",
+      "credit": "NASA Visualization Technology Applications and Development (VTAD)",
+      "sourcePage": "https://science.nasa.gov/resource/callisto-3d-model/"
+    },
+    {
+      "id": "mimas",
+      "name": "土卫一",
+      "version": 1,
+      "sizeBytes": 1565300,
+      "sha256": "dcb839bae930b04fd00b592259169c0db588848cfa97ce3a69b9548e8f492cbe",
+      "urls": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/SkyAtlas-Orbita/Galaxy/model-library-v1/mimas-v1.zip",
+        "https://raw.githubusercontent.com/SkyAtlas-Orbita/Galaxy/model-library-v1/mimas-v1.zip"
+      ],
+      "files": [
+        {
+          "path": "textures/mimas.jpg",
+          "sizeBytes": 722408,
+          "sha256": "b3090deab1774cb41ed8e016994f4ddc527897e6ea46b079396c7de99d59b4b8"
+        },
+        {
+          "path": "textures_astc/mimas.astc",
+          "sizeBytes": 935728,
+          "sha256": "0bb3923c6d4f69a2382d0ce04b9b9a470860d4e9b5bde81c0fdd94adc3f8233c"
+        }
+      ],
+      "preview": "model-library/previews/mimas.png",
+      "credit": "NASA/JPL-Caltech/Space Science Institute",
+      "sourcePage": "https://science.nasa.gov/resource/mimas-global-map-june-2017/"
+    },
+    {
+      "id": "enceladus",
+      "name": "土卫二",
+      "version": 1,
+      "sizeBytes": 2015261,
+      "sha256": "285b440e857629b3decae7d54021317c2946f30cf1d9711409b4cdd80a0a65af",
+      "urls": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/SkyAtlas-Orbita/Galaxy/model-library-v1/enceladus-v1.zip",
+        "https://raw.githubusercontent.com/SkyAtlas-Orbita/Galaxy/model-library-v1/enceladus-v1.zip"
+      ],
+      "files": [
+        {
+          "path": "textures/enceladus.jpg",
+          "sizeBytes": 1135310,
+          "sha256": "f35a6eaeb86d2fb4316aa0182c9d95ab4307b17454617d94de9d7305efd13c24"
+        },
+        {
+          "path": "textures_astc/enceladus.astc",
+          "sizeBytes": 935728,
+          "sha256": "672e91c5efca0d2d6b4be14caec2df54b1c8b51141976833ceddd9b57168d5bb"
+        }
+      ],
+      "preview": "model-library/previews/enceladus.png",
+      "credit": "NASA Visualization Technology Applications and Development (VTAD)",
+      "sourcePage": "https://science.nasa.gov/resource/enceladus-3d-model/"
+    },
+    {
+      "id": "tethys",
+      "name": "土卫三",
+      "version": 1,
+      "sizeBytes": 2002640,
+      "sha256": "121f4bbd05cd3afa455197b31e79a7b8a2dc7e48d8e731c4743fb2382bca880a",
+      "urls": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/SkyAtlas-Orbita/Galaxy/model-library-v1/tethys-v1.zip",
+        "https://raw.githubusercontent.com/SkyAtlas-Orbita/Galaxy/model-library-v1/tethys-v1.zip"
+      ],
+      "files": [
+        {
+          "path": "textures/tethys.jpg",
+          "sizeBytes": 1112781,
+          "sha256": "a7d045f9e0cfdef2965ca463ddfbc9d02aa5390a04950cd92b0cbbf834a8ae5d"
+        },
+        {
+          "path": "textures_astc/tethys.astc",
+          "sizeBytes": 935728,
+          "sha256": "1d2ab7289bf32b1bf693f073be6694dd2d85430e6cec1e04dc6acf198013eb72"
+        }
+      ],
+      "preview": "model-library/previews/tethys.png",
+      "credit": "NASA Visualization Technology Applications and Development (VTAD)",
+      "sourcePage": "https://science.nasa.gov/resource/tethys-3d-model/"
+    },
+    {
+      "id": "dione",
+      "name": "土卫四",
+      "version": 1,
+      "sizeBytes": 1957078,
+      "sha256": "11398c77a97c0638d2d0309d9f8f1b08beab63228e0ce4a4473f21649a47344e",
+      "urls": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/SkyAtlas-Orbita/Galaxy/model-library-v1/dione-v1.zip",
+        "https://raw.githubusercontent.com/SkyAtlas-Orbita/Galaxy/model-library-v1/dione-v1.zip"
+      ],
+      "files": [
+        {
+          "path": "textures/dione.jpg",
+          "sizeBytes": 1063315,
+          "sha256": "ee73e0070b31a2c7e01eeb5226b57a68896842a3f8dd7a2e62b407093f352fd4"
+        },
+        {
+          "path": "textures_astc/dione.astc",
+          "sizeBytes": 935728,
+          "sha256": "1cc1f11bda7bdd56437f1e1a33ee92c5cf681cd5c24e1d36db1e0048b09d19bd"
+        }
+      ],
+      "preview": "model-library/previews/dione.png",
+      "credit": "NASA Visualization Technology Applications and Development (VTAD)",
+      "sourcePage": "https://science.nasa.gov/resource/dione-3d-model/"
+    },
+    {
+      "id": "rhea",
+      "name": "土卫五",
+      "version": 1,
+      "sizeBytes": 2092356,
+      "sha256": "a33b1b85d5350e301754e94a2bee4d2d534076ad9d76fb03ac8b3be2cdb76f84",
+      "urls": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/SkyAtlas-Orbita/Galaxy/model-library-v1/rhea-v1.zip",
+        "https://raw.githubusercontent.com/SkyAtlas-Orbita/Galaxy/model-library-v1/rhea-v1.zip"
+      ],
+      "files": [
+        {
+          "path": "textures/rhea.jpg",
+          "sizeBytes": 1194017,
+          "sha256": "56405c1bbe34993604dab18e2d81ba8cea3359e316bec8f5b1bcb57eaa2e2716"
+        },
+        {
+          "path": "textures_astc/rhea.astc",
+          "sizeBytes": 935728,
+          "sha256": "eb6672ec3059981e5faebe3517c9c1c7a9574ca293f7196cd4afc08e1ab0f253"
+        }
+      ],
+      "preview": "model-library/previews/rhea.png",
+      "credit": "NASA Visualization Technology Applications and Development (VTAD)",
+      "sourcePage": "https://science.nasa.gov/resource/rhea-3d-model/"
+    },
+    {
+      "id": "titan",
+      "name": "土卫六",
+      "version": 1,
+      "sizeBytes": 106013,
+      "sha256": "82c056b623d2efb3d9ff69fa90b10c04f8215606b9e70e0d8f8fa54b3b00d93b",
+      "urls": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/SkyAtlas-Orbita/Galaxy/model-library-v1/titan-v1.zip",
+        "https://raw.githubusercontent.com/SkyAtlas-Orbita/Galaxy/model-library-v1/titan-v1.zip"
+      ],
+      "files": [
+        {
+          "path": "textures/titan.jpg",
+          "sizeBytes": 40664,
+          "sha256": "e25b76da2b9046843855352bf70924c8affd4bf006bf85714b8f8da4d4b99e46"
+        },
+        {
+          "path": "textures_astc/titan.astc",
+          "sizeBytes": 935728,
+          "sha256": "153826183d3173769960f0101648c0407082fcc976eb01bd0e53350d52d3a71c"
+        }
+      ],
+      "preview": "model-library/previews/titan.png",
+      "credit": "NASA Visualization Technology Applications and Development (VTAD)",
+      "sourcePage": "https://science.nasa.gov/resource/titan-3d-model/"
+    },
+    {
+      "id": "hyperion",
+      "name": "土卫七",
+      "version": 1,
+      "sizeBytes": 129357,
+      "sha256": "11dfc726d0fa0b8273b2026fa2c08a199479a639148dfd71b4775181bdedafb0",
+      "urls": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/SkyAtlas-Orbita/Galaxy/model-library-v1/hyperion-v1.zip",
+        "https://raw.githubusercontent.com/SkyAtlas-Orbita/Galaxy/model-library-v1/hyperion-v1.zip"
+      ],
+      "files": [
+        {
+          "path": "textures/hyperion.jpg",
+          "sizeBytes": 132321,
+          "sha256": "7de14ace87680d751abad4cecd9a2ad1a4cd3a74b4be21ccc4f2016a29152ce0"
+        }
+      ],
+      "preview": "model-library/previews/hyperion.png",
+      "credit": "NASA Visualization Technology Applications and Development (VTAD)",
+      "sourcePage": "https://science.nasa.gov/resource/hyperion-3d-model/"
+    },
+    {
+      "id": "iapetus",
+      "name": "土卫八",
+      "version": 1,
+      "sizeBytes": 1582405,
+      "sha256": "6347e6b5ce387b33c6b036428ef94263715df1ba12abe725737c588839d5f633",
+      "urls": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/SkyAtlas-Orbita/Galaxy/model-library-v1/iapetus-v1.zip",
+        "https://raw.githubusercontent.com/SkyAtlas-Orbita/Galaxy/model-library-v1/iapetus-v1.zip"
+      ],
+      "files": [
+        {
+          "path": "textures/iapetus.jpg",
+          "sizeBytes": 751280,
+          "sha256": "6cde092405e9ccb994cdbdeab171a13c6bb11355e3b693a3a19f12b584d42e32"
+        },
+        {
+          "path": "textures_astc/iapetus.astc",
+          "sizeBytes": 935728,
+          "sha256": "c6d7f22933b1b8fdf09d109ed73b6c1afb043cb82e2b983e829164e178d43bf2"
+        }
+      ],
+      "preview": "model-library/previews/iapetus.png",
+      "credit": "NASA Visualization Technology Applications and Development (VTAD)",
+      "sourcePage": "https://science.nasa.gov/resource/iapetus-3d-model/"
+    }
+  ]
+}
